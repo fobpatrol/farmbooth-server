@@ -10,15 +10,15 @@
     },
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": ""
+      "value": "6a7b0123-98c2-4296-a60a-4a4d29ebb1de"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": ""
+      "value": "vL21EVcjABSrw7oNBkT853UbP02sVB8g"
     },
     "DATABASE_URI": {
       "description": "Connection string for your database.",
-      "value": "$SCALINGO_MONGO_URL"
+      "value": "mongodb://heroku_d612lz3w:dtg1nhnkh9pt3u8fc3f1ghbhq8@ds139619.mlab.com:39619/heroku_d612lz3w"
     }
   },
   "addons": ["scalingo-mongodb"]

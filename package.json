@@ -1,11 +1,11 @@
 {
-  "name": "PhotogramServer",
+  "name": "FarmBoothserver",
   "version": "2.2.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/photogram/server"
+    "url": "https://fobpatrol@bitbucket.org/fobpatroldev/farmbooth-server"
   },
   "license": "MIT",
   "dependencies": {

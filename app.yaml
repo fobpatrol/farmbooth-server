@@ -3,9 +3,9 @@ vm: true
 
 env_variables:
   # --REQUIRED--
-  DATABASE_URI: mongodb://localhost:27017/dev
-  APP_ID: <your-app-id>
-  MASTER_KEY: <your-master-key>
+  DATABASE_URI: mongodb://heroku_d612lz3w:dtg1nhnkh9pt3u8fc3f1ghbhq8@ds139619.mlab.com:39619/heroku_d612lz3w
+  APP_ID: firewardenmoneybeets
+  MASTER_KEY: firewardenmoneybeetsmaster
   # --OPTIONAL--
   # FILE_KEY: <your-file-key>
   # PARSE_MOUNT: /parse
