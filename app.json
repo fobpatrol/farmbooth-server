@@ -1,7 +1,7 @@
 {
   "name": "ParseServer",
   "description": "An example Parse API server using the parse-server module",
-  "repository": "https://github.com/ParsePlatform/parse-server-example",
+  "repository": "https://fobpatrol@bitbucket.org/fobpatroldev/farmbooth-server",
   "logo": "https://avatars0.githubusercontent.com/u/1294580?v=3&s=200",
   "keywords": ["node", "express", "parse"],
   "env": {
@@ -11,15 +11,15 @@
     },
     "APP_ID": {
       "description": "A unique identifier for your app.",
-      "value": "firewardenmoneybeets"
+      "value": "6a7b0123-98c2-4296-a60a-4a4d29ebb1de"
     },
     "MASTER_KEY": {
       "description": "A key that overrides all permissions. Keep this secret.",
-      "value": "firewardenmoneybeetsmaster"
+      "value": "vL21EVcjABSrw7oNBkT853UbP02sVB8g"
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "http://moneybeets.herokuapp.com/parse"
+      "value": "https://parse.buddy.com/parse"
     }
   },
   "image": "heroku/nodejs",

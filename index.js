@@ -8,10 +8,10 @@ const S3Adapter      = require('parse-server').S3Adapter;
 
 // Parse configuration
 const PORT            = process.env.PORT || 4040;
-const DATABASE_URI    = process.env.MONGO_URL || process.env.DATABASE_URI || process.env.MONGOLAB_URI || process.env.MONGODB_URI || 'mongodb://heroku_d612lz3w:dtg1nhnkh9pt3u8fc3f1ghbhq8@ds139619.mlab.com:39619/heroku_d612lz3w';
-const SERVER_URL      = process.env.SERVER_URL || 'http://moneybeets.herokuapp.com/parse';
-const APP_ID          = process.env.APP_ID || 'firewardenmoneybeets';
-const MASTER_KEY      = process.env.MASTER_KEY || 'firewardenmoneybeetsmaster';
+const DATABASE_URI    = process.env.MONGO_URL || process.env.DATABASE_URI || process.env.MONGOLAB_URI || process.env.MONGODB_URI || 'mongodb://root:Cerberus2@104.236.185.6:433/parse';
+const SERVER_URL      = process.env.SERVER_URL || 'https://parse.buddy.com/parse';
+const APP_ID          = process.env.APP_ID || '6a7b0123-98c2-4296-a60a-4a4d29ebb1de';
+const MASTER_KEY      = process.env.MASTER_KEY || 'vL21EVcjABSrw7oNBkT853UbP02sVB8g';
 const APP_NAME        = process.env.APP_NAME || 'moneybeets';
 const PARSE_MOUNT     = process.env.PARSE_MOUNT || '/parse';
 const CLOUD_CODE_MAIN = process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js';
