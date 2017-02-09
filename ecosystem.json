@@ -5,10 +5,10 @@
    */
   "apps": [
     {
-      "name": "parse-server",
+      "name": "mbeets-server",
       "script": "index.js",
-      "watch": false,
-      "merge_logs": false,
+      "watch": true,
+      "merge_logs": true,
       "ignore_watch" : ["node_modules", "logs","tmp",".git","storage",".idea","yarn.*"],
       "env": {
         // Mount path for the server. Defaults to /parse.
@@ -20,7 +20,7 @@
         // This URL will be used when making requests to Parse Server from Cloud Code.
         "SERVER_URL": "http://moneybeets.herokuapp.com/parse",
         // Your apps name. This will appear in the subject and body of the emails that are sent.
-        "APP_NAME": "moneybeets",
+        "APP_NAME": "moneyeets",
         // (required) - The application id to host with this server instance.
         // You can use any arbitrary string. For migrated
         "APP_ID": "firewardenmoneybeets",
