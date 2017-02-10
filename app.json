@@ -1,7 +1,7 @@
 {
   "name": "ParseServer",
   "description": "An example Parse API server using the parse-server module",
-  "repository": "https://fobpatrol@bitbucket.org/fobpatroldev/farmbooth-server",
+  "repository": "https://github.com/fobpatrol/farmbooth-server",
   "logo": "https://avatars0.githubusercontent.com/u/1294580?v=3&s=200",
   "keywords": ["node", "express", "parse"],
   "env": {
@@ -19,7 +19,7 @@
     },
     "SERVER_URL": {
       "description": "URL to connect to your Heroku instance (update with your app's name + PARSE_MOUNT)",
-      "value": "https://parse.buddy.com/parse"
+      "value": "https://mbeetsserver.herokuapp.com/"
     }
   },
   "image": "heroku/nodejs",
