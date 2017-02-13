@@ -20,7 +20,7 @@
         // This URL will be used when making requests to Parse Server from Cloud Code.
         "SERVER_URL": "https://mbeetsserver.herokuapp.com/",
         // Your apps name. This will appear in the subject and body of the emails that are sent.
-        "APP_NAME": "mbeetsserver",
+        "APP_NAME": "FarmBooth",
         // (required) - The application id to host with this server instance.
         // You can use any arbitrary string. For migrated
         "APP_ID": "6a7b0123-98c2-4296-a60a-4a4d29ebb1de",

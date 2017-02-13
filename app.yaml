@@ -8,5 +8,5 @@ env_variables:
   MASTER_KEY: vL21EVcjABSrw7oNBkT853UbP02sVB8g
   # --OPTIONAL--
   # FILE_KEY: <your-file-key>
-  # PARSE_MOUNT: /parse
-  # CLOUD_CODE_MAIN:  
+  PARSE_MOUNT: /parse
+  CLOUD_CODE_MAIN:  /cloud/main.js
